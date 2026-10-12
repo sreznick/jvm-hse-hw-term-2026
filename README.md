@@ -14,8 +14,6 @@
 
 ## Архитектура
 
-**Sources DSL** -> **Awk-like DSL** -> **Report**
-
 - Sources DSL: `sources { json { file(...) http(...) } }`
 - Awk-like DSL: `awk { field(...) BEGIN {...} pattern {...} END {...} }`
 - Report: `OutputFormat` (JSON, CSV)
